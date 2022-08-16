@@ -1,0 +1,22 @@
+[
+  {
+    "slug": "valorant",
+    "name": "VALORANT",
+    "url": "/valorant"
+  },
+  {
+    "slug": "freefire",
+    "name": "Free Fire",
+    "url": "/free-fire"
+  },
+  {
+    "slug": "rainbow6",
+    "name": "Rainbow 6",
+    "url": "/rainbow-6"
+  },
+  {
+    "slug": "halo",
+    "name": "Halo Infinite",
+    "url": "/halo-infinite"
+  }
+]

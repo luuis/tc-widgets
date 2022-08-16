@@ -1,0 +1,32 @@
+<div id="schedule">
+  <div *ngFor="let game of games" [id]="game.slug">
+    <div class="game" [title]="game.name" *ngIf="matches[game.slug].length > 0">
+        <a target="_parent" [href]="game.url">
+            <img [src]="'assets/games/' + game.slug + '.png'" [alt]="game.name">
+        </a>
+    </div>
+    <div id="matches" *ngIf="matches[game.slug].length > 0">
+      <div class="match" *ngFor="let match of matches[game.slug]">
+        <div class="data" *ngIf="status(match.timestamp, match.duration) != 0">
+          <div class="status" *ngIf="status(match.timestamp, match.duration) == 1">{{ countdown(match.timestamp, match.duration) }}</div>
+          <div class="status" *ngIf="status(match.timestamp, match.duration) == 2"><span>&bull;</span> EN VIVO</div>
+            <div class="teams" *ngIf="match.type == 'versus'">
+                <img [src]="match.teams[0].logo">
+                <div>{{ match.teams[0].acronym }}</div>
+                <div>{{ match.teams[1].acronym }}</div>
+                <img [src]="match.teams[1].logo">
+            </div>
+            <div class="teams" *ngIf="match.type == 'ffa'">
+              <img [src]="match.tournamentLogo" class="width-free">
+            </div>
+            <div class="tournament">{{ match.tournament }}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- If there is no matches -->
+  <div class="no-matches" *ngIf="total == 0">
+    <div>No hay partidos programados</div>
+  </div>
+</div>
