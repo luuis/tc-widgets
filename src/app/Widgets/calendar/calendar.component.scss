@@ -1,0 +1,39 @@
+#calendar {
+  width: 100%;
+  display: flex;
+}
+
+
+#calendar > div:not(:last-child) {
+  margin-right: 12px;
+}
+
+#games .game {
+  width: 32px;
+  height: 32px;
+  padding: 8px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+#games .game:not(:last-child) {
+  margin-bottom: 6px;
+}
+
+#games .game.valorant:hover { background-color: rgba(116, 1, 11, 0.4); }
+#games .game.halo:hover     { background-color: rgba(33, 54, 43, 0.4); }
+#games .game.rainbow6:hover { background-color: rgba(66, 96, 165, 0.4); }
+#games .game.freefire:hover { background-color: rgba(181, 94, 16, 0.4); }
+
+#games .game.valorant.active { background-color: rgba(116, 1, 11, 0.75); }
+#games .game.halo.active     { background-color: rgba(33, 54, 43, 0.75); }
+#games .game.rainbow6.active { background-color: rgba(66, 96, 165, 0.75); }
+#games .game.freefire.active { background-color: rgba(181, 94, 16, 0.75); }
+
+#list {
+  flex-grow: 1;
+  color: white;
+}
+
+
