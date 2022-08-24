@@ -1,0 +1,34 @@
+<div id="calendar">
+  <div id="filter">
+    <form>
+      <div id="games">
+        <div class="game valorant">
+          <img src="assets/games/valorant.png" alt="VALORANT">
+          <!-- <input type="checkbox" name="" id=""> -->
+        </div>
+        <div class="game halo">
+          <img src="assets/games/halo.png" alt="Halo Infinite">
+        </div>
+        <div class="game rainbow6">
+          <img src="assets/games/rainbow6.png" alt="Rainbow 6">
+        </div>
+        <div class="game freefire active">
+          <img src="assets/games/freefire.png" alt="Free Fire">
+        </div>
+      </div>
+    </form>
+  </div>
+  <div id="list">
+    <div class="match" *ngFor="let match of mergedMatches">
+      <div class="header">{{ match.game }} - {{ match.tournament }}</div>
+      <div class="teams">
+        <div>logo 1</div>
+        <div>nombre 1</div>
+        <div>contra</div>
+        <div>nombre 2</div>
+        <div>logo 2</div>
+      </div>
+      <div class="date">{{ match.timestamp | date :'medium' }}</div>
+    </div>
+  </div>
+</div>
