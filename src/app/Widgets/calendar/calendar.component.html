@@ -22,11 +22,12 @@
     <div class="match" *ngFor="let match of mergedMatches">
       <div class="header">{{ match.game }} - {{ match.tournament }}</div>
       <div class="teams">
-        <div>logo 1</div>
+        <div style="text-align: center">No hay partidos programados</div>
+        <!-- <div>logo 1</div>
         <div>nombre 1</div>
         <div>contra</div>
         <div>nombre 2</div>
-        <div>logo 2</div>
+        <div>logo 2</div> -->
       </div>
       <div class="date">{{ match.timestamp | date :'medium' }}</div>
     </div>

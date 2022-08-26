@@ -1,9 +1,7 @@
 <div id="schedule">
   <div *ngFor="let game of games" [id]="game.slug">
     <div class="game" [title]="game.name" *ngIf="matches[game.slug].length > 0">
-        <a target="_parent" [href]="game.url">
-            <img [src]="'assets/games/' + game.slug + '.png'" [alt]="game.name">
-        </a>
+      <img [src]="'assets/games/' + game.slug + '.png'" [alt]="game.name">
     </div>
     <div id="matches" *ngIf="matches[game.slug].length > 0">
       <div class="match" *ngFor="let match of matches[game.slug]">
