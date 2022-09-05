@@ -18,10 +18,12 @@ interface Match {
   type: string;
   tournament: string;
   tournamentLogo?: string;
+  title?: string;
   teams?: Team[];
 }
 
 interface Team {
+  name: string;
   acronym: string;
   logo: string;
 }

@@ -2,11 +2,102 @@
   "valorant": [],
   "freefire": [
     {
-      "timestamp": "2022-09-01T23:30:00.000Z",
-      "duration": 60,
+      "timestamp": "2022-08-18T23:30:00.000Z",
+      "duration": 180,
       "type": "ffa",
       "tournament": "Retadores Free Fire",
       "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 1",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-08-25T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 2",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-09-01T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 3",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-09-08T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 4",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-09-15T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 5",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-09-22T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 6",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-09-29T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 7",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-10-06T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 8",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-10-13T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "Jornada 9",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-10-17T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "PR",
+      "teams": []
+    },
+    {
+      "timestamp": "2022-10-24T23:30:00.000Z",
+      "duration": 180,
+      "type": "ffa",
+      "tournament": "Retadores Free Fire",
+      "tournamentLogo": "assets/tournaments/retadores.png",
+      "title": "PR",
       "teams": []
     }
   ],

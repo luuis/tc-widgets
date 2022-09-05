@@ -1,35 +1,28 @@
 <div id="calendar">
-  <div id="filter">
-    <form>
-      <div id="games">
-        <div class="game valorant">
-          <img src="assets/games/valorant.png" alt="VALORANT">
-          <!-- <input type="checkbox" name="" id=""> -->
-        </div>
-        <div class="game halo">
-          <img src="assets/games/halo.png" alt="Halo Infinite">
-        </div>
-        <div class="game rainbow6">
-          <img src="assets/games/rainbow6.png" alt="Rainbow 6">
-        </div>
-        <div class="game freefire active">
-          <img src="assets/games/freefire.png" alt="Free Fire">
-        </div>
-      </div>
-    </form>
+  <div id="no-matches" *ngIf="total == 0">
+    <div>No hay partidos programados</div>
   </div>
-  <div id="list">
+
+  <div id="list" *ngIf="total > 0">
     <div class="match" *ngFor="let match of mergedMatches">
-      <div class="header">{{ match.game }} - {{ match.tournament }}</div>
-      <div class="teams">
-        <div style="text-align: center">No hay partidos programados</div>
-        <!-- <div>logo 1</div>
-        <div>nombre 1</div>
-        <div>contra</div>
-        <div>nombre 2</div>
-        <div>logo 2</div> -->
+      <div class="header">{{ match.tournament }} - {{ match.title }} </div>
+      <div class="content">
+        <div class="game">
+          <img [src]="'assets/games/' + match.gameSlug + '.png'" alt="Free Fire">
+        </div>
+        <div class="info" *ngIf="match.type == 'versus'">
+          <img [src]="match.teams[0].logo">
+          <div><b>{{ match.teams[0].name }}</b></div>
+          <div>vs</div>
+          <div><b>{{ match.teams[1].name }}</b></div>
+          <img [src]="match.teams[1].logo">
+        </div>
+        <div class="info" *ngIf="match.type == 'ffa'">
+          <img [src]="match.tournamentLogo" class="width-free">
+        </div>
       </div>
-      <div class="date">{{ match.timestamp | date :'medium' }}</div>
+      <div class="date" *ngIf="status(match.timestamp, match.duration) == 1">{{ match.timestamp | date :'medium' }}</div>
+      <div class="date" *ngIf="status(match.timestamp, match.duration) == 2"><span>&bull;</span> EN VIVO</div>
     </div>
   </div>
 </div>

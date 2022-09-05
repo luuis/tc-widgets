@@ -18,10 +18,12 @@ interface Match {
   type: string;
   tournament: string;
   tournamentLogo?: string;
+  title?: string;
   teams?: Team[];
 }
 
 interface Team {
+  name: string;
   acronym: string;
   logo: string;
 }
@@ -64,6 +66,11 @@ export class CalendarComponent implements OnInit {
     this.mergedMatches.sort((a: any, b: any) => {
       return a.timestamp - b.timestamp;
     });
+
+    this.mergedMatches = this.mergedMatches.filter(
+      (m: { timestamp: string; duration: number }) =>
+        this.status(m.timestamp, m.duration) != 0
+    );
   }
 
   ngOnInit(): void {
