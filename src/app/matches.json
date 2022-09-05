@@ -81,24 +81,6 @@
       "tournamentLogo": "assets/tournaments/retadores.png",
       "title": "Jornada 9",
       "teams": []
-    },
-    {
-      "timestamp": "2022-10-17T23:30:00.000Z",
-      "duration": 180,
-      "type": "ffa",
-      "tournament": "Retadores Free Fire",
-      "tournamentLogo": "assets/tournaments/retadores.png",
-      "title": "PR",
-      "teams": []
-    },
-    {
-      "timestamp": "2022-10-24T23:30:00.000Z",
-      "duration": 180,
-      "type": "ffa",
-      "tournament": "Retadores Free Fire",
-      "tournamentLogo": "assets/tournaments/retadores.png",
-      "title": "PR",
-      "teams": []
     }
   ],
   "rainbow6": [],
