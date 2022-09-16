@@ -44,7 +44,7 @@
   font-size: 13px;
 }
 
-.game, .info {
+.game, .info, .tournament {
   display: flex;
   padding: 10px;
   font-size: 14px;
@@ -78,6 +78,9 @@
   color: red;
 }
 
+.tournament img {
+  height: 36px;
+}
 
 #no-matches {
   text-align: center;

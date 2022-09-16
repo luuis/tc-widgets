@@ -63,14 +63,14 @@ export class CalendarComponent implements OnInit {
       this.matches.halo
     );
 
-    this.mergedMatches.sort((a: any, b: any) => {
-      return a.timestamp - b.timestamp;
-    });
-
     this.mergedMatches = this.mergedMatches.filter(
       (m: { timestamp: string; duration: number }) =>
         this.status(m.timestamp, m.duration) != 0
     );
+
+    this.mergedMatches.sort((a: any, b: any) => {
+      return new Date(a.timestamp).valueOf() - new Date(b.timestamp).valueOf();
+    });
   }
 
   ngOnInit(): void {

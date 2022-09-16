@@ -83,6 +83,147 @@
       "teams": []
     }
   ],
-  "rainbow6": [],
+  "rainbow6": [
+    {
+      "timestamp": "2022-09-18T01:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        },
+        {
+          "acronym": "FNX",
+          "name": "Fenix Esports",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/55_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-09-18T22:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        },
+        {
+          "acronym": "PÊEK",
+          "name": "PÊEK Gaming",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/56_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-09-25T01:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "OK",
+          "name": "OverKnight",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/57_thumb.png"
+        },
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-09-26T00:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "M-R",
+          "name": "MET REVEN",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/157_thumb.png"
+        },
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-09-26T23:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "6K",
+          "name": "Six Karma",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/54_thumb.png"
+        },
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-10-02T01:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        },
+        {
+          "acronym": "SKLC",
+          "name": "Skull Cracker",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/121_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-10-03T00:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "ALPHA",
+          "name": "ALPHA Team",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/89_thumb.png"
+        },
+        {
+          "acronym": "CRUEL",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        }
+      ]
+    }
+  ],
   "halo": []
 }

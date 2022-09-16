@@ -20,6 +20,9 @@
         <div class="info" *ngIf="match.type == 'ffa'">
           <img [src]="match.tournamentLogo" class="width-free">
         </div>
+        <div class="tournament" *ngIf="match.type == 'versus'">
+          <img [src]="match.tournamentLogo" class="width-free">
+        </div>
       </div>
       <div class="date" *ngIf="status(match.timestamp, match.duration) == 1">{{ match.timestamp | date :'medium' }}</div>
       <div class="date" *ngIf="status(match.timestamp, match.duration) == 2"><span>&bull;</span> EN VIVO</div>
