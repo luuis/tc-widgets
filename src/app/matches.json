@@ -285,6 +285,26 @@
           "logo": "https://cdnr.escharts.com/uploads/public/625/ac2/cb3/625ac2cb3f8c9015962260.png?width=256&height=256&mode=crop&extension=png"
         }
       ]
+    },
+    {
+      "timestamp": "2022-09-24T21:00:00.000Z",
+      "duration": 300,
+      "type": "versus",
+      "tournament": "#OMENGamingExperience",
+      "tournamentLogo": "assets/tournaments/omen_gaming_experience.png",
+      "title": "Gran Final",
+      "teams": [
+        {
+          "acronym": "VOID",
+          "name": "VOID",
+          "logo": "assets/games/halo.png"
+        },
+        {
+          "acronym": "TC",
+          "name": "Team Cruelty",
+          "logo": "https://cdnr.escharts.com/uploads/public/625/ac2/cb3/625ac2cb3f8c9015962260.png?width=256&height=256&mode=crop&extension=png"
+        }
+      ]
     }
   ]
 }
