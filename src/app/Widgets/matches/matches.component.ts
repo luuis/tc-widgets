@@ -47,17 +47,17 @@ export class MatchesComponent implements OnInit {
       var end = start + match.duration * 60 * 1000;
       return end > now;
     });
-    this.matches.freefire = this.matches.freefire.filter((match: any) => {
-      var start = new Date(match.timestamp).getTime();
-      var end = start + match.duration * 60 * 1000;
-      return end > now;
-    });
     this.matches.rainbow6 = this.matches.rainbow6.filter((match: any) => {
       var start = new Date(match.timestamp).getTime();
       var end = start + match.duration * 60 * 1000;
       return end > now;
     });
     this.matches.halo = this.matches.halo.filter((match: any) => {
+      var start = new Date(match.timestamp).getTime();
+      var end = start + match.duration * 60 * 1000;
+      return end > now;
+    });
+    this.matches.freefire = this.matches.freefire.filter((match: any) => {
       var start = new Date(match.timestamp).getTime();
       var end = start + match.duration * 60 * 1000;
       return end > now;
