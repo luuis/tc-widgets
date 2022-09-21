@@ -5,11 +5,6 @@
     "url": "/valorant"
   },
   {
-    "slug": "freefire",
-    "name": "Free Fire",
-    "url": "/freefire"
-  },
-  {
     "slug": "rainbow6",
     "name": "Rainbow 6",
     "url": "/rainbow-6"
@@ -18,5 +13,10 @@
     "slug": "halo",
     "name": "Halo Infinite",
     "url": "/halo-infinite"
+  },
+  {
+    "slug": "freefire",
+    "name": "Free Fire",
+    "url": "/freefire"
   }
 ]
