@@ -10,7 +10,7 @@
       "title": "Stage 3",
       "teams": [
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         },
@@ -30,7 +30,7 @@
       "title": "Stage 3",
       "teams": [
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         },
@@ -55,7 +55,7 @@
           "logo": "https://r6.epanel.com.br/uploads/team/white/57_thumb.png"
         },
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         }
@@ -75,7 +75,7 @@
           "logo": "https://r6.epanel.com.br/uploads/team/white/157_thumb.png"
         },
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         }
@@ -95,7 +95,7 @@
           "logo": "https://r6.epanel.com.br/uploads/team/white/54_thumb.png"
         },
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         }
@@ -110,7 +110,7 @@
       "title": "Stage 3",
       "teams": [
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         },
@@ -135,7 +135,27 @@
           "logo": "https://r6.epanel.com.br/uploads/team/white/89_thumb.png"
         },
         {
-          "acronym": "CRUEL",
+          "acronym": "TC",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-10-16T17:00:00.000Z",
+      "duration": 60,
+      "type": "versus",
+      "tournament": "Campeonato Mexicano",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/5/dark/en/vert.svg",
+      "title": "Playoffs - Semifinales",
+      "teams": [
+        {
+          "acronym": "ALPHA",
+          "name": "ALPHA Team",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/89_thumb.png"
+        },
+        {
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
         }
@@ -157,7 +177,7 @@
           "logo": "https://cdnr.escharts.com/uploads/public/615/c68/612/615c68612f6fc574548861.png?width=256&height=256&mode=drop&extension=png"
         },
         {
-          "acronym": "CRUE",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://cdnr.escharts.com/uploads/public/625/ac2/cb3/625ac2cb3f8c9015962260.png?width=256&height=256&mode=crop&extension=png"
         }
@@ -177,7 +197,7 @@
           "logo": "https://cdnr.escharts.com/uploads/public/618/254/19e/61825419e6c40256718695.png?width=256&height=256&mode=drop&extension=png"
         },
         {
-          "acronym": "CRUE",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://cdnr.escharts.com/uploads/public/625/ac2/cb3/625ac2cb3f8c9015962260.png?width=256&height=256&mode=crop&extension=png"
         }
@@ -197,7 +217,7 @@
           "logo": "https://cdnr.escharts.com/uploads/public/5f3/eed/534/5f3eed5340b50255642842.png?width=256&height=256&mode=crop&extension=png"
         },
         {
-          "acronym": "CRUE",
+          "acronym": "TC",
           "name": "Team Cruelty",
           "logo": "https://cdnr.escharts.com/uploads/public/625/ac2/cb3/625ac2cb3f8c9015962260.png?width=256&height=256&mode=crop&extension=png"
         }
@@ -215,6 +235,26 @@
           "acronym": "VOID",
           "name": "VOID",
           "logo": "assets/games/halo.png"
+        },
+        {
+          "acronym": "TC",
+          "name": "Team Cruelty",
+          "logo": "https://cdnr.escharts.com/uploads/public/625/ac2/cb3/625ac2cb3f8c9015962260.png?width=256&height=256&mode=crop&extension=png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-10-20T19:00:00.000Z",
+      "duration": 180,
+      "type": "versus",
+      "tournament": "Halo World Championship",
+      "tournamentLogo": "https://hcs.ee.gg/images/hcs_logo.png",
+      "title": "Play-in - Cuartos de Final",
+      "teams": [
+        {
+          "acronym": "ACE",
+          "name": "Acend",
+          "logo": "https://cdnr.escharts.com/uploads/public/619/0fd/9d2/6190fd9d2e0e8128787204.png?width=256&height=256&mode=crop&extension=png"
         },
         {
           "acronym": "TC",

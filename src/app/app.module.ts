@@ -8,10 +8,11 @@ import { CalendarComponent } from './Widgets/calendar/calendar.component';
 
 import localeEs from '@angular/common/locales/es';
 import { registerLocaleData } from '@angular/common';
+import { CommunityPlayerComponent } from './Widgets/community-player/community-player.component';
 registerLocaleData(localeEs, 'es');
 
 @NgModule({
-  declarations: [AppComponent, MatchesComponent, CalendarComponent],
+  declarations: [AppComponent, MatchesComponent, CalendarComponent, CommunityPlayerComponent],
   imports: [BrowserModule, AppRoutingModule],
   providers: [{ provide: LOCALE_ID, useValue: 'es' }],
   bootstrap: [AppComponent],
