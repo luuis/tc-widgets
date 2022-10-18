@@ -5,7 +5,7 @@
       "duration": 180,
       "type": "versus",
       "tournament": "The Off Season",
-      "tournamentLogo": "assets/games/halo.png",
+      "tournamentLogo": "assets/games/valorant.png",
       "title": "Stage 3",
       "teams": [
         {
@@ -16,7 +16,7 @@
         {
           "acronym": "CAZ",
           "name": "Cazadoras",
-          "logo": "assets/games/halo.png"
+          "logo": "assets/games/valorant.png"
         }
       ]
     }
