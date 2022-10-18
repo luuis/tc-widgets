@@ -1,5 +1,26 @@
 {
-  "valorant": [],
+  "valorant": [
+    {
+      "timestamp": "2022-10-19T00:30:00.000Z",
+      "duration": 180,
+      "type": "versus",
+      "tournament": "The Off Season",
+      "tournamentLogo": "assets/games/halo.png",
+      "title": "Stage 3",
+      "teams": [
+        {
+          "acronym": "TC",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        },
+        {
+          "acronym": "CAZ",
+          "name": "Cazadoras",
+          "logo": "assets/games/halo.png"
+        }
+      ]
+    }
+  ],
   "rainbow6": [
     {
       "timestamp": "2022-09-18T01:00:00.000Z",
