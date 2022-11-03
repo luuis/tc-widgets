@@ -188,7 +188,7 @@
       "type": "versus",
       "tournament": "Supercopa LATAM",
       "tournamentLogo": "https://www.r6esports.com.br/assets/champs/15/dark/sqrt.svg",
-      "title": "Ronda de 16",
+      "title": "Octavos de Final",
       "teams": [
         {
           "acronym": "TC",
@@ -199,6 +199,26 @@
           "acronym": "ZG",
           "name": "Zimios Gang",
           "logo": "https://r6.epanel.com.br/uploads/team/dark/185_thumb.png"
+        }
+      ]
+    },
+    {
+      "timestamp": "2022-11-03T20:30:00.000Z",
+      "duration": 180,
+      "type": "versus",
+      "tournament": "Supercopa LATAM",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/15/dark/sqrt.svg",
+      "title": "Cuartos de Final",
+      "teams": [
+        {
+          "acronym": "TC",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        },
+        {
+          "acronym": "RVN",
+          "name": "REVEN E.C",
+          "logo": "https://r6.epanel.com.br/uploads/team/dark/157_thumb.png"
         }
       ]
     }
