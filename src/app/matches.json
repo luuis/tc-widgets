@@ -241,6 +241,26 @@
           "logo": "https://r6.epanel.com.br/uploads/team/white/121_thumb.png"
         }
       ]
+    },
+    {
+      "timestamp": "2022-11-09T22:00:00.000Z",
+      "duration": 180,
+      "type": "versus",
+      "tournament": "Supercopa LATAM",
+      "tournamentLogo": "https://www.r6esports.com.br/assets/champs/15/dark/sqrt.svg",
+      "title": "Final",
+      "teams": [
+        {
+          "acronym": "TC",
+          "name": "Team Cruelty",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/98_thumb.png"
+        },
+        {
+          "acronym": "ESG",
+          "name": "Estorm Gaming",
+          "logo": "https://r6.epanel.com.br/uploads/team/white/220_thumb.png"
+        }
+      ]
     }
   ],
   "halo": [
